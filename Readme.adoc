@@ -1,0 +1,9 @@
+== JSR 223 Based Kotlin Script Demo
+
+Note: IntelliJ shows bindings variable in `hello.kts` script as
+unresolved reference, but in fact gradle can compile and run it:
+`./gradlew -q run` will print
+```text
+--- some gradle messages ---
+Hello, World of Scripting!
+```
